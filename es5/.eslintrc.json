@@ -1,0 +1,11 @@
+{
+  "extends": "../.eslintrc.json",
+  "env": {
+    "browser": true,
+    "es6": false
+  },
+  "rules": {
+    "no-var": 0,
+    "semi": [1, "never"]
+  }
+}
