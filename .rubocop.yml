@@ -49,3 +49,6 @@ Style/DoubleNegation:
 
 Style/MultilineBlockChain:
   Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
