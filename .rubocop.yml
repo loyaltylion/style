@@ -19,9 +19,6 @@ Style/EmptyLinesAroundModuleBody:
   Enabled: true
   EnforcedStyle: no_empty_lines
 
-Style/TrailingComma:
-  EnforcedStyleForMultiline: comma
-
 Style/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
@@ -52,3 +49,9 @@ Style/MultilineBlockChain:
 
 Style/NumericLiterals:
   Enabled: false
+
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma 
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma 
