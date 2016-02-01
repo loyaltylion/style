@@ -14,5 +14,8 @@
   },
   "globals": {
     "__base": false
+  },
+  "rules": {
+    "prefer-arrow-callback": 1
   }
 }
