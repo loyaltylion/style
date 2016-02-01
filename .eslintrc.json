@@ -187,6 +187,7 @@
         "SwitchCase": 1
       }
     ],
-    "no-array-constructor": 2
+    "no-array-constructor": 2,
+    "dot-location": [1, "object"]
   }
 }
