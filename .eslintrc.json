@@ -105,8 +105,8 @@
       "global"
     ],
     "semi": [
-      0,
-      "always"
+      2,
+      "never"
     ],
     "no-redeclare": [
       2,
