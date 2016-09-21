@@ -1,11 +1,20 @@
 {
-  "extends": "../.eslintrc.json",
+  "extends": ["../.eslintrc.json", "plugin:react/recommended"],
   "parser": "babel-eslint",
   "env": {
     "browser": true,
     "es6": true
   },
   "rules": {
-    "semi": [1, "never"]
+    "semi": [1, "never"],
+    "react/prop-types": 0
+  },
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
   }
 }
