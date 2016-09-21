@@ -1,4 +1,10 @@
 {
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
   "rules": {
     "no-undef": 2,
     "comma-dangle": [
@@ -99,8 +105,8 @@
       "global"
     ],
     "semi": [
-      0,
-      "always"
+      2,
+      "never"
     ],
     "no-redeclare": [
       2,
@@ -122,6 +128,7 @@
     ],
     "arrow-spacing": 1,
     "no-confusing-arrow": 1,
+    "no-constant-condition":1,
     "require-yield": 1,
     "no-useless-concat": 1,
     "prefer-reflect": 0,
