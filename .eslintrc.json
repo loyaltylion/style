@@ -61,7 +61,7 @@
     ],
     "eol-last": 1,
     "no-trailing-spaces": 1,
-    "new-cap": 1,
+    "new-cap": 0,
     "no-lonely-if": 1,
     "no-mixed-spaces-and-tabs": 1,
     "no-nested-ternary": 1,
@@ -76,7 +76,7 @@
     ],
     "no-plusplus": 1,
     "no-unused-expressions": 0,
-    "prefer-const": 0,
+    "prefer-const": 1,
     "object-curly-spacing": [
       1,
       "always"
@@ -105,7 +105,7 @@
       "global"
     ],
     "semi": [
-      2,
+      1,
       "never"
     ],
     "no-redeclare": [
@@ -127,7 +127,12 @@
       "as-needed"
     ],
     "arrow-spacing": 1,
-    "no-confusing-arrow": 1,
+    "no-confusing-arrow": [
+      1,
+      {
+        "allowParens": true
+      }
+    ],
     "no-constant-condition":1,
     "require-yield": 1,
     "no-useless-concat": 1,
