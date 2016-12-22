@@ -54,10 +54,13 @@ Style/NumericLiterals:
   Enabled: false
 
 Style/TrailingCommaInLiteral:
-  EnforcedStyleForMultiline: comma 
+  EnforcedStyleForMultiline: comma
 
 Style/TrailingCommaInArguments:
-  EnforcedStyleForMultiline: comma 
+  EnforcedStyleForMultiline: comma
 
 Performance/Casecmp:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
   Enabled: false
