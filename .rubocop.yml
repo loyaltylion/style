@@ -5,7 +5,13 @@ Metrics/LineLength:
   Max: 100
 
 Metrics/MethodLength:
-  Max: 25
+  Max: 35
+
+Metrics/BlockLength:
+  Max: 70
+  Enabled: false
+  # not released yet but will be soon, then we can enable this check again
+  # ExcludedMethods: ['describe', 'it']
 
 Style/HashSyntax:
   Enabled: true
@@ -63,4 +69,7 @@ Performance/Casecmp:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/FirstParameterIndentation:
   Enabled: false
