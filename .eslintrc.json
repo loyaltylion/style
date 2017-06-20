@@ -199,6 +199,9 @@
       }
     ],
     "no-array-constructor": 2,
-    "dot-location": [1, "object"]
+    "dot-location": [
+      1,
+      "property"
+    ]
   }
 }
