@@ -4,6 +4,9 @@
     "node": true,
     "mocha": true
   },
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
   "ecmaFeatures": {
     "blockBindings": true,
     "generators": true,
