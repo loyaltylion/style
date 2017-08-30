@@ -73,3 +73,6 @@ Style/FrozenStringLiteralComment:
 
 Style/FirstParameterIndentation:
   Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
