@@ -154,13 +154,7 @@
     "no-catch-shadow": 1,
     "no-delete-var": 2,
     "no-undef-init": 1,
-    "indent": [
-      1,
-      2,
-      {
-        "SwitchCase": 1
-      }
-    ],
+    "indent": 0,
     "no-array-constructor": 2,
     "dot-location": [1, "property"]
   }
