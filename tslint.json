@@ -1,0 +1,34 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "tslint.enable": true,
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  "defaultSeverity": "warn",
+  "rules": {
+    "curly": [true, "ignore-same-line"],
+    "semicolon": false,
+    "member-access": false,
+    "no-unused-expression": [true, "allow-fast-null-checks"],
+    "no-console": false,
+    "interface-name": [true, "never-prefix"],
+    "ordered-imports": [
+      false,
+      {
+        "import-sources-order": "any",
+        "named-imports-order": "lowercase-first"
+      }
+    ],
+    "object-literal-sort-keys": false,
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false,
+    "jsx-no-lambda": false,
+    "jsx-alignment": false,
+    "promise-function-async": false,
+    "await-promise": true,
+    "no-return-await": true,
+    "strict-type-predicates": true,
+    "no-unused-variable": true,
+    "no-empty": { "severity": "default" },
+    "jsx-boolean-value": { "severity": "default" },
+    "member-ordering": { "severity": "default" }
+  }
+}
