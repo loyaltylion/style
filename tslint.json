@@ -11,9 +11,8 @@
     "no-console": false,
     "interface-name": [true, "never-prefix"],
     "ordered-imports": [
-      false,
+      true,
       {
-        "import-sources-order": "any",
         "named-imports-order": "lowercase-first"
       }
     ],
