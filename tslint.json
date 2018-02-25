@@ -28,6 +28,11 @@
     "no-unused-variable": true,
     "no-empty": { "severity": "default" },
     "jsx-boolean-value": { "severity": "default" },
-    "member-ordering": { "severity": "default" }
+    "member-ordering": {
+      "severity": "default",
+      "options": {
+        "order": "statics-first"
+      }
+    }
   }
 }
