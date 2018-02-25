@@ -11,6 +11,9 @@
     "jsx-boolean-value": {
       "severity": "default"
     },
+    "jsx-no-bind": {
+      "severity": "warn"
+    },
     "jsx-no-lambda": false,
     "jsx-no-multiline-js": false,
     "jsx-wrap-multiline": false,
@@ -24,6 +27,9 @@
     "no-console": false,
     "no-empty": {
       "severity": "default"
+    },
+    "no-empty-interface": {
+      "severity": "warn"
     },
     "no-return-await": true,
     "no-unused-expression": [true, "allow-fast-null-checks"],
