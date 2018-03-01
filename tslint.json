@@ -20,7 +20,7 @@
     "member-access": false,
     "member-ordering": {
       "options": {
-        "order": "statics-first"
+        "order": "instance-sandwich"
       },
       "severity": "default"
     },
