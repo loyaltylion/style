@@ -1,0 +1,6 @@
+steps:
+  - label: ':node: Publish to npm'
+    branches: master
+    command:
+      - docker build -t "loyaltylion-style:$REVISION" .
+      - docker run -e REVISION -e NPM_TOKEN "loyaltylion-style:$REVISION" scripts/npm-publish.sh
