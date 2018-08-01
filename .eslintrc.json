@@ -156,6 +156,7 @@
     "no-undef-init": 1,
     "indent": 0,
     "no-array-constructor": 2,
-    "dot-location": [1, "property"]
+    "dot-location": [1, "property"],
+    "require-await": 1
   }
 }
