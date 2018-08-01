@@ -43,6 +43,7 @@
     ],
     "promise-function-async": false,
     "semicolon": false,
-    "strict-type-predicates": true
+    "strict-type-predicates": true,
+    "no-floating-promises": true
   }
 }
