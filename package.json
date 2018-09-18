@@ -3,7 +3,11 @@
   "version": "1.0.0-acd94ed",
   "description": "linter configs for loyaltylion",
   "author": "engineering@loyaltylion.com",
-  "dependencies": {},
+  "dependencies": {
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-react": "^3.6.0"
+  },
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
