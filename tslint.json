@@ -31,19 +31,34 @@
     "no-empty-interface": {
       "severity": "warn"
     },
-    "no-return-await": true,
     "no-unused-expression": [true, "allow-fast-null-checks"],
     "no-unused-variable": true,
     "object-literal-sort-keys": false,
-    "ordered-imports": [
-      true,
-      {
-        "named-imports-order": "lowercase-first"
-      }
-    ],
-    "promise-function-async": false,
     "semicolon": false,
     "strict-type-predicates": true,
-    "no-floating-promises": true
+    "typedef": [true, "parameter"],
+    "readonly-keyword": true,
+    "readonly-array": true,
+    "no-let": false,
+    "no-parameter-reassignment": true,
+    "no-delete": true,
+    "no-if-statement": false,
+    "no-expression-statement": false,
+    "promise-function-async": true,
+    "no-floating-promises": true,
+    "no-unnecessary-type-assertion": true,
+    "no-return-await": true,
+    "no-unsafe-any": false,
+    "restrict-plus-operands": true,
+    "deprecation": true,
+    "prefer-readonly": true,
+    "class-name": true,
+    "no-boolean-literal-compare": true,
+    "ordered-imports": true,
+    "no-namespace": false
+  },
+  "jsRules": {
+    "curly": [true, "ignore-same-line"],
+    "object-literal-sort-keys": false
   }
 }
