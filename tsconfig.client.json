@@ -1,0 +1,9 @@
+{
+  "extends": "./typescript/tsconfig.base",
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "lib": ["es6", "dom", "dom.iterable", "scripthost"],
+    "module": "esnext",
+    "target": "es5"
+  }
+}

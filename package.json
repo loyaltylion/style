@@ -1,11 +1,12 @@
 {
   "name": "@loyaltylion/style",
   "version": "1.0.0-0414918",
-  "description": "linter configs for loyaltylion",
+  "description": "linter, compiler configs for loyaltylion",
   "author": "engineering@loyaltylion.com",
   "dependencies": {
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",
+    "tslint-language-service": "^0.9.9",
     "tslint-react": "^3.6.0"
   },
   "license": "UNLICENSED",
