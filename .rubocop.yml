@@ -20,25 +20,25 @@ Style/HashSyntax:
 Style/Documentation:
   Enabled: false
 
-Style/EmptyLinesAroundClassBody:
+Layout/EmptyLinesAroundClassBody:
   Enabled: true
   EnforcedStyle: no_empty_lines
 
-Style/EmptyLinesAroundModuleBody:
+Layout/EmptyLinesAroundModuleBody:
   Enabled: true
   EnforcedStyle: no_empty_lines
 
-Style/AlignParameters:
+Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
-Style/IndentHash:
+Layout/IndentHash:
   EnforcedStyle: consistent
 
-Style/DotPosition:
+Layout/DotPosition:
   Enabled: true
   EnforcedStyle: trailing
 
-Style/MultilineOperationIndentation:
+Layout/MultilineOperationIndentation:
   EnforcedStyle: indented
   SupportedStyles:
     - aligned
@@ -59,7 +59,10 @@ Style/MultilineBlockChain:
 Style/NumericLiterals:
   Enabled: false
 
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 
 Style/TrailingCommaInArguments:
@@ -71,7 +74,7 @@ Performance/Casecmp:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-Style/FirstParameterIndentation:
+Layout/FirstParameterIndentation:
   Enabled: false
 
 Style/IfUnlessModifier:
